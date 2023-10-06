@@ -9,14 +9,14 @@
     <script src="functional.js" defer type="module"></script>
   </head>
   <body>
-    <form id="user-input">
+    <form id="user-input" data-user-input >
       <div class="form-control">
         <label for="username">Username</label>
-        <input type="text" id="username" />
+        <input type="text" id="username" data-user-username />
       </div>
       <div class="form-control">
         <label for="password">Password</label>
-        <input type="password" id="password" />
+        <input type="password" id="password" data-user-password/>
       </div>
       <button type="submit">Create User</button>
     </form>
