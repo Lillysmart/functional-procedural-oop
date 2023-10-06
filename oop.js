@@ -42,7 +42,7 @@ class UserInputForm {
       !Validator.validate(enteredPassword, Validator.MIN_LENGTH, 5)
     ) {
       alert(
-        'Invalid input - username or password is wrong (password should be at least six characters).'
+        'Invalid input - username or password is wrong (password should be at least six characters)'
       );
       return;
     }
